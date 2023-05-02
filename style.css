@@ -5,3 +5,26 @@
   margin: 0;
   padding: 0;
 }
+
+main{
+  display: flex;
+}
+
+.difficulty-selector{
+  width: 500px;
+  height: auto;
+  background-color: crimson;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.difficulty{
+  font-size: 16px;
+  padding: 25px 0;
+  color: aquamarine;
+}
+
+.difficulty:hover{
+  cursor: pointer;
+}
