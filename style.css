@@ -13,6 +13,7 @@ body{
 main{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .difficulty-selector{
@@ -20,7 +21,6 @@ main{
   width: 500px;
   height: auto;
   background-color: crimson;
-  align-items: center;
 }
 
 .difficulty{
