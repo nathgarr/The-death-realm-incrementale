@@ -39,6 +39,12 @@ main{
   border: ridge 5px #000000;
 }
 
+.action-upgrade{
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px;
+}
+
 .action-upgrade:hover{
   cursor: pointer;
 }
