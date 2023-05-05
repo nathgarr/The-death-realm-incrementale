@@ -45,6 +45,10 @@
   cursor: pointer;
 }
 
+.difficulty p{
+  margin-left: 37%;
+}
+
 .stat{
   height: 20px;
   width: auto;
