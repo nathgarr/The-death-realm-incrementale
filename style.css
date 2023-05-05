@@ -6,27 +6,39 @@
   padding: 0;
 }
 
-body{
-  background-color: black;
-}
-
-main{
+.container{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+#Select{
+  margin-left: 33%;
+  margin-right: 33%;
+  color: aquamarine;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 .difficulty-selector{
-  display: none;
   width: 500px;
   height: auto;
-  background-color: crimson;
+  background-color: #333333;
+}
+
+.difficulty-selector .h2{
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .difficulty{
   font-size: 16px;
-  padding: 25px 0;
+  padding: 15px 0;
   color: aquamarine;
+  border: 1px ridge aqua;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10px;
 }
 
 .difficulty:hover{
